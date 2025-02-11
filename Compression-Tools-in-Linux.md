@@ -13,17 +13,17 @@ Compression tools are essential utilities used to reduce the size of files and d
 
 This will create a compressed file `myfile.txt.gz`.
 
-    ```bash
+    bash
     gzip myfile.txt
-    ```
+    
 
 - **Command to Decompress**:
 
 Or use `gzip -d myfile.txt.gz`.
 
-    ```bash
+    bash
     gunzip myfile.txt.gz
-    ```
+    
 
 - **Options**:
     - `c`: Write to stdout.
@@ -40,17 +40,17 @@ Or use `gzip -d myfile.txt.gz`.
 
 This will create `myfile.txt.bz2`.
 
-    ```bash
+    bash
     bzip2 myfile.txt
-    ```
+    
 
 - **Command to Decompress**:
 
 Or use `bzip2 -d myfile.txt.bz2`.
 
-    ```bash
+    bash
     bunzip2 myfile.txt.bz2
-    ```
+    
 
 - **Options**:
     - `k`: Keep the original file.
@@ -67,15 +67,15 @@ Or use `bzip2 -d myfile.txt.bz2`.
 
 This will create a ZIP archive containing `myfile.txt`.
 
-    ```bash
+    bash
     zip myarchive.zip myfile.txt
-    ```
+    
 
 - **Command to Decompress**:
 
     ```bash
     unzip myarchive.zip
-    ```
+    
 
 - **Options**:
     - `r`: Recursively zip directories.
@@ -117,9 +117,9 @@ This will create a ZIP archive containing `myfile.txt`.
 
 Or use:
 
-    ```bash
+    bash
     tar -xf archive_name.tar
-    ```
+    
 
     - `tar -xzf archive_name.tar.gz`
     - `tar -xjf archive_name.tar.bz2`
@@ -142,15 +142,15 @@ Or use:
 
 Creates a `.7z` archive.
 
-    ```bash
+    bash
     7z a myarchive.7z myfile.txt
-    ```
+    
 
 - **Command to Decompress**:
 
     ```bash
     7z x myarchive.7z
-    ```
+    
 
 - **Options**:
     - `p`: Add a password to the archive.
